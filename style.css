@@ -1126,18 +1126,21 @@ animation: anim 2s linear forwards;
         align-items: flex-start;
         padding: 35px 12px;
         background-color: #212121;
-        height: 70vh;
+        height: 1000vh;
         position: fixed;
         top: 0;
         right: -500px;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
-        width: 400px;
+        width: 350px;
         font-size: 10px;
+        margin: 0px -20px;
         transition: 0.5s ease;
     }
-
+ #lg-shop{
+    display: flex;
+ }
     .navbarul.active {
-        right: 0px;
+        right: 20px;
     }
 
     .navbarul li {
@@ -1172,6 +1175,7 @@ animation: anim 2s linear forwards;
         top: 30px;
         right: 30px;
         display: flex;
+        visibility: visible;
     }
 
 
@@ -1363,9 +1367,13 @@ animation: anim 2s linear forwards;
 
 
     /*blog*/
+    .blog{
+        align-items: flex-start;
+        padding: 23px;
+    }
     .blogBox {
         flex-direction: column;
-        margin: 12px 0px;
+        margin: 80px 0px;
     }
 
 
@@ -1428,4 +1436,12 @@ animation: anim 2s linear forwards;
 .fillbtn{
     font-size: 14px;
 }
+
+
+
+
+
+
+
+
 }
