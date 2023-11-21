@@ -22,24 +22,6 @@ if (crossNav) {
 
 
 
-const mainimg = document.querySelector(".mainimg")
-const smallImg = document.querySelectorAll(".imgSmall")
-
-smallImg[0].onclick=function(){
-mainimg.src = smallImg[0].src
-}
-smallImg[1].onclick=function(){
-mainimg.src = smallImg[1].src
-}
-smallImg[2].onclick=function(){
-mainimg.src = smallImg[2].src
-}
-smallImg[3].onclick=function(){
-mainimg.src = smallImg[3].src
-}
-
-
-
 // toastbox
 
 const toastbox = document.querySelector(".toastBox")
